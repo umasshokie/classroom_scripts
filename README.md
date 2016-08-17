@@ -20,4 +20,4 @@ Clone all repositories for a given assignment into the current directory
 
 ##classroom_push: 
 
-Push changes to all directories in the current directory related to given assignment. There are two options: add a single file and commit/push (use if you create a gradesheet and just want to add it), or commit/push changes to all files in directory that are already added to the repository (use if you edit student code and want those comments to be pushed).
+Push changes to all directories in the current directory related to given assignment. There are two options: add a single file and commit/push (use if you create a gradesheet and just want to add it), or commit/push changes to all files in directory that are already added to the repository (use if you edit student code and want those comments to be pushed). Currently the commit message is hardcoded to be "Graded" but you can easily modify the script by changing "Graded" to your desired message before running.
